@@ -26,7 +26,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['*']
 
-CSRF_TRUSTED_ORIGINS = ['https://rbsocialmedia.azurewebsites.net']
+CSRF_TRUSTED_ORIGINS = ['https://rbsocialmedia.ukwest.cloudapp.azure.com']
 
 # Application definition
 
