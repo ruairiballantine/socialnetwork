@@ -23,7 +23,6 @@ urlpatterns = [
     path('', include('landing.urls')),
     path('accounts/', include('allauth.urls')),
     path('social/', include('social.urls')),
-    re_path(r'^%s(?P<path>.*)$' % re.escape(settings.STATIC_URL.lstrip('/')), serve, {"document_root": settings.STATIC_ROOT}),
 ]
 
 if settings.DEBUG:
