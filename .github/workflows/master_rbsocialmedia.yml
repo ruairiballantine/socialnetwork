@@ -60,4 +60,4 @@ jobs:
         with:
           app-name: 'RBSocialMedia'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_91AB65C655FB415B869836305BEA896D }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_761D283A77744DAAB2C2C5A2A65697E8 }}
