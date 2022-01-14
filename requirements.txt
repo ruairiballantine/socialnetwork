@@ -1,1 +1,4 @@
 Django==4.0.1
+django-crispy-forms
+django-allauth
+Pillow
