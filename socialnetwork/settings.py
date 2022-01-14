@@ -139,7 +139,7 @@ USE_TZ = True
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'static')
     BASE_DIR / "static",
-    '/home/site/wwwroot/static/',
+    #'/home/site/wwwroot/static/',
 ]
 
 STATIC_URL = '/static/'
